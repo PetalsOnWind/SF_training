@@ -1,0 +1,640 @@
+/* #header  {
+	background: #474747;
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.5;
+	font-size-adjust: none;
+	font-stretch: normal;
+	min-width: 940px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	height: 69px;
+
+	box-shadow: 0 2px 3px rgba(0,0,0,0.40),inset 0 1px rgba(255,255,255,0.10);
+	overflow: hidden;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#header h1 {
+	width: 205px;
+	height: 59px;
+	background-image: url("learnboost.png");
+	vertical-align: top;
+	display: inline-block;
+	margin: 5px 0;
+	font-size: 30px;
+	overflow: hidden;
+}
+
+h1 {
+	color: #ce2654;
+	font: 700 26px/40px "museo-slab-1","museo-slab-2",serif;
+}
+
+#header .nav ul {
+	line-height: 69px;
+	margin-left: 30px;
+	overflow: hidden;
+	text-shadow: 0 1px 1px #000;
+	margin: auto;
+    margin-left: 0px;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	width: 940px;
+}
+
+ul {
+	list-style: none;
+}
+
+div {
+	text-align: left;
+}
+
+#header-buttons {
+	float: left;
+	position: relative;
+	margin-left: 10px;
+}
+
+li {
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	display: inline;
+	color: #ffffff;
+}
+
+ul #header-buttons {
+	float: right;
+	margin: 16px 0;
+	overflow: hidden;
+	border: 1px solid #181818;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #2d2d2d;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.40),inset 0 1px 0 rgba(255,255,255,0.20);
+	display: block;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 8px 15px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.40);
+}
+
+body {
+	color: #454545;
+}
+*/
+
+body {
+	background-color: #d7f2f9;
+	background-image:  url('Images/background.gif');
+	background-repeat: repeat-x;
+	color: #454545;
+	font-family: normal normal normal 10px Helvetica, Arial, sans-serif;
+	margin: 0;
+
+}
+
+#header {
+	background: #474747 url('Images/line.png');
+	box-shadow: 0 2px 3px rgba(0,0,0,0.40),inset 0 1px rgba(255,255,255,0.10);
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#header .wrap {
+	min-width: 940px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	height: 69px;
+}
+
+#header h1 {
+	width: 209px;
+	height: 59px;
+}
+
+#header h1 a {
+	display: inline-block;
+	text-indent: -9000px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#header .nav {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#header .nav ul {
+	line-height: 69px;
+	margin-left: 30px;
+	overflow: hidden;
+	text-shadow: 0 1px 1px #000;
+}
+#header .nav ul li{
+	float:left;
+	padding: 2px;
+}
+
+ul {
+	list-style:none;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+    padding-left: 0px;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+#header .header-buttons {
+	display:inline-block;
+	vertical-align:top;
+}
+
+ul .header-buttons {
+	float: right;
+	margin: 16px 0;
+	overflow: hidden;
+}
+
+.nav {
+	top: -100px;
+	left: 237px;
+	position:relative;
+	padding: 0;
+	margin:0;
+}
+
+.nav li {
+	right: 2vw;
+}
+
+.nav li a:hover {
+	background-color: rbga(0,0,0,0.1);
+}
+
+.header-buttons {
+	top: -100px;
+	color:#fff;
+}
+
+.header-buttonsli a:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+
+ul .header-buttons a{
+	background: url('Images/line.png') 1px solid #181818;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #2d2d2d;
+	border-radius: 2px;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.40),inset 0 1px 0 rgba(255,255,255,0.20);
+	display: block;
+	line-height: 18px;
+	overflow: hidden;
+	padding: 8px 15px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.40);
+}
+
+.light {
+	background: transparent url("Images/learnboost_sprite.png") no-repeat 0 -100px;
+	height: 532px;
+	margin: 0 auto;
+	width: 787px;
+}
+
+#wrapper {
+	margin: -532px auto 0;
+	position: relative;
+	width: 905px;
+}
+
+#content-area {
+    margin-top: 20px;
+}
+
+#wrapper #banner {
+    background: transparent url("Images/content_area.png") repeat-y 0% 0%;
+    height: 100%;
+    margin: 40px 0 20px;
+    position: relative;
+}
+
+#wrapper #banner .top-banner {
+    background: transparent url("Images/learnboost_sprite.png") no-repeat 0% 0%;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: -20px;
+    width: 905px;
+}
+
+#wrapper #banner .bottom-banner {
+    background: transparent url("Images/learnboost_sprite.png") no-repeat 0% 100%;
+    bottom: -10px;
+    height: 212px;
+    left: 0;
+    position: absolute;
+    width: 905px;
+}
+
+#wrapper #banner #banner-content {
+    position: relative;
+    min-height: 405px;
+    padding: 20px 367px 0 30px;
+}
+
+#wrapper #banner #banner-content h1 {
+    margin: 0;
+}
+
+#wrapper #banner #banner-content h1, #wrapper #banner #banner-content h2 {
+    text-align: center;
+    font-size: 52px;
+    text-shadow: #fff 0 1px 0;
+    line-height: 47px;
+}
+
+h1 {
+    color: #ce2654;
+    font: 700 26px/40px "museo-slab-1","museo-slab-2",serif;
+        font-size: 26px;
+        line-height: 40px;
+    margin-bottom: 10px;
+}
+
+#wrapper #banner #banner-content h2 {
+    margin-bottom: 24px;
+}
+
+h2 {
+    color: #ce2654;
+    font: 700 20px "museo-slab-1","museo-slab-2",serif;
+        font-size: 20px;
+        line-height: normal;
+    margin: 0 0 10px;
+        margin-bottom: 10px;
+}
+
+#wrapper #banner #banner-content p {
+    text-shadow: #fff 0 1px 0;
+    margin: 0 40px;
+    text-align: center;
+    font: 300 23px/29px "museo-slab-1","museo-slab-2",serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+#wrapper #banner #banner-content .start-buttons {
+    height: 50px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+#wrapper #banner #banner-content .start-buttons a.button {
+    text-decoration: none;
+    height: 51px;
+    width: 143px;
+    text-align: center;
+    margin: 0 7px;
+    display: inline-block;
+    background: transparent url("Images/demo_video.png") no-repeat left top;
+}
+
+a {
+    text-decoration: none;
+    color: #454545;
+}
+
+#wrapper #banner #banner-content .start-buttons a.button-watch {
+    background-position: -157px top;
+}
+
+form.signup-form {
+    background: url("Images/banner.png") no-repeat 0% 0%;
+	height: 355px;
+	padding-left: 29px;
+	padding-right: 27px;
+	position: absolute;
+	right: -11px;
+	top: -10px;
+	width: 310px;
+}
+
+form.signup-form .signup-head {
+    background: #add133;
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-top-left-radius: 6px;
+    border-top-left-radius: 6px;
+    -moz-border-radius-topright: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #7c9c1d;
+}
+
+form.signup-form .signup-body {
+    border-width: 0 1px 1px 1px;
+    border-color: #c3c4c4;
+    border-style: solid;
+    background: url("white.png") ;
+    border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	position: relative;
+}
+
+form.signup-form .signup-head .signup-wrap {
+    border-top: 1px solid #d5e79a;
+    font: bold 25px Helvetica,Arial;
+        line-height: normal;
+    text-shadow: 0 1px 0 #fff;
+    color: #2b2b2b;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 53px;
+    line-height: 53px;
+    vertical-align: middle;
+}
+
+.signup-social {
+    height: 52px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+form.signup-form .signup-body .or {
+    background: #f2f2f2;
+    position: absolute;
+    top: 44px;
+    left: 140px;
+    padding: 0 10px;
+    font-size: 13px;
+    font-style: oblique;
+    text-shadow: 0 1px 0 #fff;
+    color: #000;
+    font-family: Georgia;
+}
+
+form.signup-form .signup-body .signup-top {
+    padding: 15px 16px 8px;
+    border-top: 1px solid #fff;
+}
+
+form.signup-form .signup-body .signup-submit {
+    padding: 2px 16px 10px;
+    overflow: hidden;
+    font-size: 11px;
+    color: #595959;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.signup-social .social-button {
+    height: 24px;
+    width: 132px;
+    margin: 11px 5px 11px 16px;
+    background: transparent url("Images/fb_g.png") no-repeat left top;
+    display: inline-block;
+    position: relative;
+}
+
+.signup-social .btn-g {
+    background-position: -132px top;
+}
+
+form.signup-form .signup-body .signup-top .signup-field {
+    margin-bottom: 10px;
+}
+
+form.signup-form .signup-body .signup-top .signup-check {
+    font-size: 11px;
+    color: #595959;
+}
+
+form.signup-form .signup-body .signup-top .signup-field.double > span:first-child {
+    margin-right: 10px;
+}
+
+form.signup-form .signup-body .signup-top .signup-field.double > span {
+    display: inline-block;
+}
+
+form.signup-form .signup-body .signup-top .signup-field label {
+    font: oblique 11px Georgia;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    margin-bottom: 3px;
+    display: block;
+    padding-left: 2px;
+}
+
+form.signup-form .signup-body .signup-top .signup-field.double > span input {
+    width: 130px;
+}
+
+form.signup-form .signup-body .signup-top .signup-field input {
+    border: 1px solid #ababab;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 0 #fff;
+    -moz-box-shadow: 0 1px 0 #fff;
+    box-shadow: 0 1px 0 #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 32px;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: block;
+    width: 180px;
+}
+
+form.signup-form .signup-body .signup-top .signup-field.role select {
+    width: 140px;
+    margin-top: 5px;
+}
+
+form.signup-form .signup-body .signup-top .signup-field select {
+    -khtml-appearance: none;
+    -moz-appearance: none;
+    font-size: 13px;
+    border: 0;
+    padding: 0 60px 0 12px;
+    height: 31px;
+    line-height: 31px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 1px 0 #fff;
+    -moz-box-shadow: 0 1px 0 #fff;
+    box-shadow: 0 1px 0 #fff;
+    background: url("Images/dropdown.png") no-repeat left 0, url("Images/dropdown.png") no-repeat right -72px, url("Images/dropdown.png") repeat-x left -36px;
+}
+
+form.signup-form .signup-body .signup-top .signup-field select {
+    font-size: 13px;
+    line-height: 31px;
+}
+
+form.signup-form .signup-body .signup-top .signup-check input[type="checkbox"]:checked {
+    background-position: -20px 0;
+}
+
+form.signup-form .signup-body .signup-top .signup-check input[type="checkbox"] {
+    width: 15px;
+    height: 16px;
+    margin: 0 5px 0 0;
+    background: transparent url("Images/check.png") no-repeat 0 0;
+    cursor: pointer;
+    vertical-align: bottom;
+    border: none;
+}
+
+form.signup-form .signup-body .signup-submit input {
+    float: right;
+    width: 100px;
+    height: 40px;
+    line-height: 36px;
+    cursor: pointer;
+    background: url("Images/join.png") no-repeat top left;
+    border: 0;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+form.signup-form .signup-body .signup-submit .terms {
+    padding-top: 5px;
+}
+
+form.signup-form .signup-body .signup-submit {
+    font-size: 11px;
+    color: #595959;
+    text-shadow: 0 1px 0 #fff;
+}
+
+form.signup-form .signup-body .signup-submit a {
+    color: #0d45c2;
+}
+
+#wrapper .top {
+    background: transparent url("Images/learnboost_sprite.png") no-repeat 0% -650px;
+    height: 20px;
+    width: 907px;
+}
+
+#wrapper #content {
+    background: transparent url("Images/transparent.png")     repeat-y 0% 0%;
+    height: auto;
+    overflow: hidden;
+    padding: 0 17px 10px 44px;
+    width: 846px;
+}
+
+#wrapper #content .right {
+	float: right;
+}
+
+
+#wrapper #content .features h1 {
+    margin-bottom: 20px;
+}
+
+#wrapper #content .features .feature-section {
+    display: block;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+
+#wrapper #content .features .feature-section .feature.gradebook {
+    background-position: -1220px 0;
+}
+
+#wrapper #content .features .feature-section .feature {
+    background: transparent url("Images/learnboost_sprite_home.png") no-repeat -1220px 0;
+        background-position-x: -1220px;
+        background-position-y: 0px;
+    padding: 0 0 0 100px;
+    margin: 0 0 25px 0;
+    height: 80px;
+    float: left;
+}
+
+#wrapper #content .features .feature-section .feature.gradebook {
+    background-position: -1220px 0;
+}
+
+#wrapper #content .features .feature-section .desc {
+    margin-left: 115px;
+}
+
+#wrapper #content .features .feature-section .desc h2 {
+    font: lighter 20px/24px Helvetica;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #ce2654;
+    font: 700 20px "museo-slab-1","museo-slab-2",serif;
+    margin: 0 0 10px;
+}
+
+#wrapper #content .features .feature-section .desc p {
+    font: lighter 16px/20px Helvetica;
+    margin: 0;
+    padding: 0 20px 0 0;
+}
+
+#wrapper #content .features .feature-section .desc p a {
+    color: #4096e7;
+    font-weight: bold;
+    font-size: 12px;
+    padding-right: 33px;
+    text-transform: uppercase;
+
+}
+
+#wrapper #content .features .feature-section .feature.lessonplans {
+    background-position: -1220px -100px;
+}
+
+#wrapper #content .features .feature-section .feature.pands {
+    background-position: -1220px -200px;
+}
+
+#wrapper .bottom {
+    background: transparent url("Images/learnboost_sprite.png") no-repeat 0% -670px;
+    clear: both;
+    height: 25px;
+    margin: 0 0 10px;
+    width: 907px;
+}
+
+
+
+
