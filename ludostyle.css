@@ -1,0 +1,34 @@
+#myCanvas {
+	width: 800;
+	height: 600;
+	background-color: #eeeeee;
+	display: inline;
+}
+
+#CanvasConatiner {
+	text-align: center;
+}
+
+#dice {
+	margin: 100px, 50px;
+	position: fixed;
+	bottom: 270;
+	right: 650;
+}
+
+#display {
+	border: 0;
+	box-shadow: 0;
+	font-size: 20px;
+	position: fixed;
+	right: 800;
+}
+
+#winner {
+	font-size: 25px;
+}
+
+p{
+	position: fixed;
+	right: 650;
+}

@@ -709,13 +709,13 @@ h6 {
     font-size: 12px;
 }
 
-
-.feedback{
-	position:fixed;
-	width:300px;
-	height:200px;
-	left:-300px;
-	top:45%;
-	z-index:500;
-	background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABmJLR0QA/wD/AP+gvaeTAAAADUlEQVQImWNgYGA4AwAA0QDNCV2I3QAAAABJRU5ErkJggg==');
+.feedback-tab {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    width: 30px;
+    height: 100px;
+    color: #f00;
+    cursor: pointer;
+    color: #eee;
 }
